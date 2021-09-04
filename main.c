@@ -25,16 +25,16 @@ int main()
 
 int pattern(int a)
 {
-    for(int i=0;i<=a;i++)
-    {
-        for(int k = i;k<=a;k++)
+        for(int i=1;i<=a;i++)
         {
-            printf(" ");
-            for(int j=1;j<=i-1;j++)
+            for(int j = a-i;j>=1;j--)
+            {
+                printf(" ");
+            }
+            for(int k=1;k<=i;k++)
             {
                 printf("* ");
             }
             printf("\n");
         }
-    }
 }
