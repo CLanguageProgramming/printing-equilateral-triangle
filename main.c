@@ -9,7 +9,7 @@
 int pattern();
 int main()
 {
-    int num;//5
+    int num;
     printf("Enter the number of rows.(Enter odd numbers only)\n>>");
     scanf("%d", &num);
     if(num%2==0)
@@ -37,4 +37,6 @@ int pattern(int a)
             }
             printf("\n");
         }
+        getchar();
+        getchar();
 }
