@@ -1,1 +1,4 @@
-# printing-equilateral-triangle
+# Printing-equilateral-triangle
+##     *
+##    * *
+##   * * *
